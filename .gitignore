@@ -1,2 +1,5 @@
 .venv/
 models/custom_gpt_model/model.safetensors
+# Add the following lines:
+.venv/Lib/site-packages/torch/lib/torch_cpu.dll
+.venv/Lib/site-packages/torch/lib/dnnl.lib
