@@ -1,0 +1,56 @@
+Your account was debited by INR 5000.
+A credit of INR 12000 has been made to your account.
+Transaction of INR 300 failed due to insufficient funds.
+Your recent purchase of INR 1500 has been successfully processed.
+You have withdrawn INR 2000 from an ATM.
+A payment of INR 750 has been made to [Merchant Name].
+Your account balance is now INR 8000 after the recent transaction.
+You received a refund of INR 1000 from [Merchant Name].
+Your recurring payment of INR 500 for subscription has been deducted.
+A transfer of INR 2500 has been initiated to [Recipient Name].
+Suspicious login detected, please verify your credentials.
+Your OTP for login is 123456.
+Your account has been accessed from a new device. If this was not you, please secure your account.
+Unusual activity detected on your account. Please review your recent transactions.
+Your password was changed successfully. If this was not you, contact customer support immediately.
+Two-factor authentication has been enabled for your account.
+A new beneficiary has been added to your account: [Beneficiary Name].
+Your mobile number has been updated successfully.
+Please verify your email address to secure your account.
+Your login attempt was unsuccessful due to incorrect credentials.
+Your monthly statement is ready. Check your account for details.
+Your loan application has been approved! The amount will be credited shortly.
+Your fixed deposit matures on [Maturity Date]. Please check for renewal options.
+Your KYC verification is pending. Please complete it at your earliest convenience.
+Your account balance is low at INR 500; please recharge to avoid service charges.
+You have successfully updated your profile information.
+Your debit card will expire on [Expiry Date]. Please request a new one.
+Congratulations! You have earned interest of INR 200 this month on your savings account.
+Your credit limit has been increased to INR 50,000!
+Important: Update your contact information to receive timely alerts.
+Get 10% cashback on your next purchase using our credit card!
+Open a fixed deposit account today and earn up to 7% interest!
+Refer a friend and earn rewards on their first transaction!
+Enjoy zero processing fees on personal loans till [End Date].
+Sign up for our mobile banking app and get an instant bonus of INR 100!
+Use code BANK20 to get a discount on your next loan application fee!
+Upgrade to our premium banking plan and enjoy exclusive benefits!
+Participate in our lucky draw and stand a chance to win exciting prizes!
+Get free insurance coverage when you open a savings account with us!
+Limited time offer: Get a free credit report with every loan application!
+Payment of INR 1500 was successful via UPI.
+Your subscription payment has been successfully processed for INR 299.
+You have received a payment of INR 2000 from [Sender's Name].
+Payment of INR 500 for utility bill was successful.
+Your online shopping payment of INR 1200 has been completed successfully.
+Payment received from [Company Name] for invoice #[Invoice Number].
+Transaction successful: You have paid INR 350 for [Service/Utility].
+Confirmation: Payment of INR 4500 made towards loan EMI.
+You have received an international transfer of USD 500 (approx INR [Amount]).
+Payment of INR 800 has been credited back to your account.
+Miscellaneous Notifications
+Thank you for choosing us! We appreciate your business.
+Our customer service team is available 24/7 for any assistance you may need.
+We are upgrading our systems on [Date]. Services may be temporarily unavailable.
+Important: Review our updated terms and conditions effective from [Date].
+Join our financial literacy program and learn how to manage your finances better!
