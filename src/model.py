@@ -1,15 +1,32 @@
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
+import openai
 
 class CustomGPTModel:
-    def __init__(self, model_path):
-        self.model_path = model_path
-        self.load_model()
+    def __init__(self, api_key):
+        self.api_key = api_key
+        openai.api_key = self.api_key  # Set your API key
 
-    def load_model(self):
-        self.tokenizer = GPT2Tokenizer.from_pretrained(self.model_path + "/tokenizer")
-        self.model = GPT2LMHeadModel.from_pretrained(self.model_path)
+    def generate_text(self, input_text, model="gpt-4", max_tokens=50):
+        # Make an API call to OpenAI GPT-3/GPT-4 model
+        response = openai.Completion.create(
+            model=model,
+            prompt=input_text,
+            max_tokens=max_tokens,
+            temperature=0.7  # Control randomness of the output
+        )
+        return response.choices[0].text.strip()  # Extract and return the generated text
 
-    def generate_text(self, input_text, max_length=50):
-        inputs = self.tokenizer.encode(input_text, return_tensors='pt')
-        outputs = self.model.generate(inputs, max_length=max_length, num_return_sequences=1)
-        return self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+    def fine_tune_model(self, fine_tuning_data_file, model="gpt-4"):
+        # Use OpenAI API to fine-tune a GPT-3 or GPT-4 model (requires a different approach)
+        openai.FineTuning.create(
+            training_file=fine_tuning_data_file,
+            model=model,
+            n_epochs=3  # Define number of epochs for fine-tuning
+        )
+
+# Usage example
+api_key = "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"
+
+custom_model = CustomGPTModel(api_key)
+input_text = "Once upon a time, in a land far away,"
+generated_text = custom_model.generate_text(input_text)
+print("Generated Text:", generated_text)
