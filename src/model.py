@@ -24,7 +24,6 @@ class CustomGPTModel:
         )
 
 # Usage example
-api_key = "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"
 
 custom_model = CustomGPTModel(api_key)
 input_text = "Once upon a time, in a land far away,"
