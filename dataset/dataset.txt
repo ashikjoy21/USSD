@@ -1,6 +1,7 @@
 Your subscription payment has been successfully processed for INR 299.
 You have received a payment of INR 2000 from [Sender's Name].
 Payment of INR 500 for utility bill was successful.
+
 Your online shopping payment of INR 1200 has been completed successfully.
 Payment received from [Company Name] for invoice #[Invoice Number].
 Transaction successful: You have paid INR 350 for [Service/Utility].
